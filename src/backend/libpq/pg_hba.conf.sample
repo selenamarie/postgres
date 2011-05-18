@@ -80,3 +80,6 @@
 host    all             all             127.0.0.1/32            @authmethod@
 # IPv6 local connections:
 host    all             all             ::1/128                 @authmethod@
+# Allow replication connections to localhost, by a superuser:
+# host    replication             postgres             127.0.0.1/32            @authmethod@
+# host    replication             postgres             ::1/128                 @authmethod@
